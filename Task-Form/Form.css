@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 0, 85, 0.81);
+}
+
+hr {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+}
+
+form {
+    width: 490px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="date"],
+input[type="submit"],
+input[type="reset"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+textarea {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: lightseagreen;
+}
